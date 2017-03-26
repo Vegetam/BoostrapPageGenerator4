@@ -1,0 +1,76 @@
+.container-fluid{
+	    *zoom:1;margin-left: 0px;
+	    margin-top: 10px;
+	    padding: 30px 15px 15px;
+	    border: 1px solid #DDDDDD;
+	    border-radius: 4px;
+	    position: relative;
+	    word-wrap: break-word;
+	}
+	body.devpreview {
+	    margin-top: 60px;
+	    margin-left:5px !important;
+	}
+
+
+ span.fa-6{
+    font-size: 20em;
+}
+span.fa-5{
+    font-size: 12em;
+}
+span.fa-4{
+    font-size: 7em;
+}
+span.fa-3{
+    font-size: 4em;
+}
+span.fa-2{
+    font-size: 2em;
+}
+.toolbox-reset .box span.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.toolbox-reset .box span.fa-stack-2x {
+  font-size: 2em;
+
+}
+
+.flex-first {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+}
+.flex-unordered {
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+}
+.flex-last {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+}
+.nav {
+  display: inherit;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+#icon {
+  width: 100px;
+    height: 100px;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
