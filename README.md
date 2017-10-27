@@ -18,3 +18,10 @@ Try it: [Live Demo](http://www.francescomalagrino.com/BootstrapPageGenerator/4/)
 ### Authors
 
   * [Vegetam](https://github.com/Vegetam) (Main Author)
+  
+  A special thanks as author and contributor also to :
+  
+  * [RDCH106](https://github.com/RDCH106) (Contributor / Author)
+  * [Phil](https://github.com/QuakePhil) (Contributor / Author)
+  * [yaneq](https://github.com/yaneq) (Contributor / Author)
+  * [legnaleama](https://github.com/legnaleama) (Contributor / Author)
