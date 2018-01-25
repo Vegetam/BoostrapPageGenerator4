@@ -3,6 +3,28 @@
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <meta charset="utf-8">
+              <button onclick="resizeCanvas('xs')" class="btn btn-secondary navbar-btn"><i class="fa fa-mobile-phone"></i> </button>
+            </div>
+          </li>
+          <li>
+            <div class="btn-group" data-toggle="buttons-radio">
+              <button id="edit" class="btn btn-secondary navbar-btn">
+                <i class="fa fa-edit"></i> Edit
+              </button>
+              <button type="button" class="btn btn-secondary navbar-btn" id="devpreview">
+                <i class="fa icon-eye-close" style="color: #333;"></i> Developer
+              </button>
+              <button type="button" class="btn btn-secondary navbar-btn" id="sourcepreview" >
+                <i class="fa icon-eye-open" style="color: #333;"></i> Preview
+              </button>
+            </div>
+          </li>
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <div class="btn-group">
+              <button class="btn btn-secondary navbar-btn" href="#clear" id="clear" color="#333;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="title" content="Create page with Bootstrap">
@@ -42,28 +64,6 @@
               <button onclick="resizeCanvas('lg')" class="btn btn-secondary navbar-btn"><i class="fa fa-desktop"></i> </button>
               <button onclick="resizeCanvas('md')" class="btn btn-secondary navbar-btn"><i class="fa fa-laptop"></i> </button>
               <button onclick="resizeCanvas('sm')" class="btn btn-secondary navbar-btn"><i class="fa fa-tablet"></i> </button>
-              <button onclick="resizeCanvas('xs')" class="btn btn-secondary navbar-btn"><i class="fa fa-mobile-phone"></i> </button>
-            </div>
-          </li>
-          <li>
-            <div class="btn-group" data-toggle="buttons-radio">
-              <button id="edit" class="btn btn-secondary navbar-btn">
-                <i class="fa fa-edit"></i> Edit
-              </button>
-              <button type="button" class="btn btn-secondary navbar-btn" id="devpreview">
-                <i class="fa icon-eye-close" style="color: #333;"></i> Developer
-              </button>
-              <button type="button" class="btn btn-secondary navbar-btn" id="sourcepreview" >
-                <i class="fa icon-eye-open" style="color: #333;"></i> Preview
-              </button>
-            </div>
-          </li>
-
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <div class="btn-group">
-              <button class="btn btn-secondary navbar-btn" href="#clear" id="clear" color="#333;">
                 <i class="fa icon-trash" style="color: #333;"></i>Clear
               </button>
               <button type="button" class="btn btn-primary navbar-btn" data-target="#downloadModal" rel="/build/downloadModal" role="button" data-toggle="modal">
@@ -2121,7 +2121,7 @@
                     </span>
                     <div class="preview">Card</div>
                     <div class="view">
-                       <div class="card" style="width: 20rem;">
+                       <div class="card">
                         <div class="card-header">
                             Card Header
                         </div>
