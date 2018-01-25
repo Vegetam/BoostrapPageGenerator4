@@ -28,4 +28,4 @@ Try it: [Live Demo] version beta 2 (http://www.francescomalagrino.com/BootstrapP
   * [yaneq](https://github.com/yaneq) (Contributor / Author)
   * [legnaleama](https://github.com/legnaleama) (Contributor / Author)
   * [oleteacher](https://github.com/oleteacher) (Contributor / Author)
-  * [oleteacher] (https://github.com/oleteacher) (Contributor/ Author)
+ 
