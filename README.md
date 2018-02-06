@@ -11,11 +11,13 @@ Create frontend code simply and quickly with Bootstrap using a drag & drop inter
 
 About the tooltip and popover use the refresh button
 
-About the collapse it will work if you download the page it won't work property due an know error about the version 4 of bootstrap alpha 6
+About the collapse it will work if you download the page it won't work property due an know error about the version 4 of bootstrap alpha 6 Version beta 2 and finally the released version 4 of bootstrap.
 
 Try it: [Live Demo] version 4 alpha 6 (http://www.francescomalagrino.com/BootstrapPageGenerator/4/4%20alpha%206/)
 
 Try it: [Live Demo] version beta 2 (http://www.francescomalagrino.com/BootstrapPageGenerator/4/4%20beta%202/)
+
+Try it: [Live Demo] Bootstrap 4 (http://www.francescomalagrino.com/BootstrapPageGenerator/4/)
 
 ### Authors
 
