@@ -10,7 +10,7 @@
     <meta name="keywords" content="Create page with Bootstrap">
     <title>Bootstrap 4 Page Builder</title>
     <!-- Le styles -->
-	  <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/toolbox.css" rel="stylesheet">
     <link href="css/editor.css" rel="stylesheet">
     <link href="css/docs.min.css" rel="stylesheet">
@@ -27,6 +27,14 @@
 
    
   <link href="css/other.css" rel="stylesheet">
+      <style>
+  .toolbox-reset .show 
+  {
+    display: inline-block !important;
+  }
+
+</style>
+
   </head>
   <body style="cursor: auto;" class="edit toolbox-reset">
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -42,7 +50,7 @@
               <button onclick="resizeCanvas('lg')" class="btn btn-secondary navbar-btn"><i class="fa fa-desktop"></i> </button>
               <button onclick="resizeCanvas('md')" class="btn btn-secondary navbar-btn"><i class="fa fa-laptop"></i> </button>
               <button onclick="resizeCanvas('sm')" class="btn btn-secondary navbar-btn"><i class="fa fa-tablet"></i> </button>
-              <button onclick="resizeCanvas('xs')" class="btn btn-secondary navbar-btn"><i class="fa fa-mobile-phone"></i> </button>
+                <button onclick="resizeCanvas('xs')" class="btn btn-secondary navbar-btn"><i class="fa fa-mobile-phone"></i> </button>
             </div>
           </li>
           <li>
@@ -66,6 +74,7 @@
               <button class="btn btn-secondary navbar-btn" href="#clear" id="clear" color="#333;">
                 <i class="fa icon-trash" style="color: #333;"></i>Clear
               </button>
+
               <button type="button" class="btn btn-primary navbar-btn" data-target="#downloadModal" rel="/build/downloadModal" role="button" data-toggle="modal">
                 <i class="fa icon-chevron-down" ></i>Download
               </button>
@@ -81,8 +90,8 @@
         <div class="row-fluid">
           <div class="">
             <span></span>
-            <div class="sidebar-nav">
-              <ul class="nav nav-list accordion-group">
+             <div class="sidebar-nav" style="overflow: scroll;">
+              <ul class="nav nav-list accordion-group" style="overflow: scroll;">
                 <li class="nav-header">
                   <div class="pull-right popover-info">
                     <i class="icon-question-sign "></i>
@@ -335,7 +344,7 @@
                   </div>
                 </li>
               </ul>
-              <ul class="nav nav-list accordion-group">
+              <ul class="nav nav-list accordion-group" style="overflow: scroll;">
                 <li class="nav-header">
                   <i class="icon-plus icon-white"></i> BASE CSS
                   <div class="pull-right popover-info">
@@ -608,14 +617,14 @@
 
 
 
-				  <div class="box box-element ui-draggable">
+          <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                     <div class="preview">Dashboard</div>
-					 <span class="configuration">
+           <span class="configuration">
                       <button type="button" class="btn btn-mini" data-target="#editorModal" role="button" data-toggle="modal">Editor</button>
-					  </span>
-                    <div class="view"> 		
-	<div class="container-fluid">
+            </span>
+                    <div class="view">    
+  <div class="container-fluid">
       <div class="row">
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1>Dashboard</h1>
@@ -775,15 +784,15 @@
       </div>
     </div></div>
                   </div>
-	    <div class="box box-element ui-draggable">
+      <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                    <span class="configuration">
                       <button type="button" class="btn btn-mini" data-target="#editorModal" role="button" data-toggle="modal">Editor</button>
                     </span>
                     <div class="preview">Color</div>
                               <div class="view"> 
-		
-				<div class="bs-example">
+    
+        <div class="bs-example">
     <div class="color-swatches">
       <div class="color-swatch brand-primary"></div>
       <div class="color-swatch brand-success"></div>
@@ -791,18 +800,18 @@
       <div class="color-swatch brand-warning"></div>
       <div class="color-swatch brand-danger"></div>
     </div>
-	<br />
-	<div class="color-swatches">
-	  <div class="color-swatch gray-darker"></div>
+  <br />
+  <div class="color-swatches">
+    <div class="color-swatch gray-darker"></div>
       <div class="color-swatch gray-dark"></div>
       <div class="color-swatch gray"></div>
       <div class="color-swatch gray-light"></div>
       <div class="color-swatch gray-lighter"></div>
-	</div>
   </div>
-	</div>
   </div>
-	 <div class="box box-element ui-draggable">
+  </div>
+  </div>
+   <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                    <span class="configuration">
                     <button type="button" class="btn btn-mini" data-target="#editorModal" role="button" data-toggle="modal">Editor</button>
@@ -814,7 +823,7 @@
                            <li class="" rel="fa-4"><a href="#" rel="fa-4">Medium</a></li>
                            <li class="" rel="fa-3"><a href="#" rel="fa-3">Normal</a></li>
                           <li class="" rel="fa-2"><a href="#" rel="fa-2">Small</a></li>
-	              <li class="" rel="fa-1"><a href="#" rel="fa-1">Tiny</a></li>
+                <li class="" rel="fa-1"><a href="#" rel="fa-1">Tiny</a></li>
                         </ul>
                      </span>
                         <span class="btn-group">
@@ -1522,19 +1531,19 @@
                     <div class="view"> 
                     <span contenteditable="true" class="fa fa-address-book fa-3" aria-hidden="true">
                     </span>                           
-	     </div>
-	</div>		
+       </div>
+  </div>    
 
                 </li>
               </ul>
 
 
 
-              <ul class="nav nav-list accordion-group">
+              <ul class="nav nav-list accordion-group" style="overflow: scroll;">
                 <li class="nav-header">
                   <i class="icon-plus icon-white"></i> FORMS
                 
-				 <div class="pull-right popover-info">
+         <div class="pull-right popover-info">
                     <i class="icon-question-sign "></i>
                    <div class="popover fade right">
                 <div class="arrow"></div>
@@ -1542,16 +1551,16 @@
                 <div class="popover-content">DRAG &amp; DROP THE ELEMENTS INSIDE THE COLUMNS WHERE YOU WANT TO INSERT IT. IF YOU NEED MORE INFO PLEASE VISIT <a target="_blank" href="http://getbootstrap.com/css/#forms">FORM.</a></div>
               </div>
                   </div>
-				</li>
+        </li>
                 <li style="display: none;" class="boxes" id="elmComponents">
-				
-				<!-- Horizontal Form -->
-				 <div class="box box-element ui-draggable">
+        
+        <!-- Horizontal Form -->
+         <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                     <span class="configuration">
                       <button type="button" class="btn btn-mini" data-target="#editorModal" role="button" data-toggle="modal">Editor</button>
                     </span>
-					<div class="preview">Horizontal form</div>
+          <div class="preview">Horizontal form</div>
                           <div class="view">
          <form>
     <div class="form-group row has-success">
@@ -1600,7 +1609,7 @@
   </form>
               </div>
                   </div>
-				
+        
                   <!--LABEL-->
 
                   <div class="box box-element ui-draggable">
@@ -1634,35 +1643,35 @@
                       <input type="text" class='form-control'/>
                     </div>
                   </div>
-				  <!--Password Input-->
-				    <div class="box box-element ui-draggable">
+          <!--Password Input-->
+            <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                     <div class="preview">Password input</div>
                     <div class="view">
                       <input type="password" class='form-control' placeholder="insert your password here"/>
                     </div>
                   </div>
-				  
-				   <!--Email Input-->
-				    <div class="box box-element ui-draggable">
+          
+           <!--Email Input-->
+            <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                     <div class="preview">Email input</div>
                     <div class="view">
                       <input type="email" class='form-control' placeholder="type your email here"/>
                     </div>
                   </div>
-				  <!--Text Area-->
-				   <div class="box box-element ui-draggable">
+          <!--Text Area-->
+           <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-				   <div class="preview">Text Area</div>
+           <div class="preview">Text Area</div>
                     <div class="view">
                       <textarea class='form-control'>Default text </textarea>
                     </div>
                   </div>
-				   <!--Checkbox inline-->
-				    <div class="box box-element ui-draggable">
+           <!--Checkbox inline-->
+            <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-				   <div class="preview">Inline Checkbox</div>
+           <div class="preview">Inline Checkbox</div>
                     <div class="view">
                       <div class="form-check form-check-inline">
                        <label class="form-check-label">
@@ -1681,29 +1690,29 @@
                     </div>
                     </div>
                   </div>
-				   <!--multiple checkbox-->
-				   <div class="box box-element ui-draggable">
+           <!--multiple checkbox-->
+           <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-				   <div class="preview">Multiple Checkbox</div>
+           <div class="preview">Multiple Checkbox</div>
                     <div class="view">
                       <div class="checkbox">
-						<label for="checkboxes-0">
-						  <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
-						  Option one
-						</label>
-						</div>
-					  <div class="checkbox">
-						<label for="checkboxes-1">
-						  <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
-						  Option two
-						</label>
-						</div>
+            <label for="checkboxes-0">
+              <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+              Option one
+            </label>
+            </div>
+            <div class="checkbox">
+            <label for="checkboxes-1">
+              <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+              Option two
+            </label>
+            </div>
                     </div>
                   </div>
-				 <!--radio inline-->
-				    <div class="box box-element ui-draggable">
+         <!--radio inline-->
+            <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-				   <div class="preview">Inline Radio</div>
+           <div class="preview">Inline Radio</div>
                     <div class="view">
                       <div class="form-check form-check-inline">
                       <label class="form-check-label">
@@ -1722,26 +1731,26 @@
                     </div>
                     </div>
                   </div>
-				   <!--Multiple radio-->
-				    <div class="box box-element ui-draggable">
+           <!--Multiple radio-->
+            <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-				   <div class="preview">Multiple Radio</div>
+           <div class="preview">Multiple Radio</div>
                     <div class="view">
-						<div class="radio">
-							<label for="radios-0">
-							  <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
-							  Option one
-							</label>
-							</div>
-						  <div class="radio">
-							<label for="radios-1">
-							  <input type="radio" name="radios" id="radios-1" value="2">
-							  Option two
-							</label>
-							</div>
-					</div>
+            <div class="radio">
+              <label for="radios-0">
+                <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                Option one
+              </label>
+              </div>
+              <div class="radio">
+              <label for="radios-1">
+                <input type="radio" name="radios" id="radios-1" value="2">
+                Option two
+              </label>
+              </div>
+          </div>
                   </div>
-				     <div class="box box-element ui-draggable">
+             <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
            <div class="preview">Static Controls</div>
                     <div class="view">
@@ -1868,7 +1877,7 @@
 
                     </div>
                   </div>
-				          <div class="box box-element ui-draggable">
+                  <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                     <div class="preview">Intermediate</div>
                     <div class="view">
@@ -1884,44 +1893,44 @@
 
                     </div>
                   </div>
-				    <!--Basic  Select-->
-					
-				    <div class="box box-element ui-draggable">
+            <!--Basic  Select-->
+          
+            <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-				   <div class="preview">Basic Select</div>
+           <div class="preview">Basic Select</div>
                     <div class="view">
-					<select id="selectbasic" name="selectbasic" class="form-control">
-						<option value="1">Option one</option>
-						<option value="2">Option two</option>
-					</select>
-					</div>
+          <select id="selectbasic" name="selectbasic" class="form-control">
+            <option value="1">Option one</option>
+            <option value="2">Option two</option>
+          </select>
+          </div>
                   </div>
-				  
-				     <!--Multiple  Select-->
-					 
-				   <div class="box box-element ui-draggable">
+          
+             <!--Multiple  Select-->
+           
+           <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-				   <div class="preview">Multiple Select</div>
+           <div class="preview">Multiple Select</div>
                     <div class="view">
-					<select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
-					  <option value="1">Option one</option>
-					  <option value="2">Option two</option>
-					</select>
-					</div>
+          <select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
+            <option value="1">Option one</option>
+            <option value="2">Option two</option>
+          </select>
+          </div>
                   </div>
-				  
-				   <!--File  Button-->
-				   <div class="box box-element ui-draggable">
+          
+           <!--File  Button-->
+           <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
-				   <div class="preview">File Button</div>
+           <div class="preview">File Button</div>
                     <div class="view">
                     <label class="input-file">
-					             <input id="filebutton" name="filebutton" class="input-file" type="file">
+                       <input id="filebutton" name="filebutton" class="input-file" type="file">
                         <span class="input-file-control"></span>
                     </label>
-					</div>
+          </div>
                   </div>
-				  
+          
                   <!--BUTTON-->
 
                   <div class="box box-element ui-draggable">
@@ -2007,7 +2016,7 @@
               <!--COMPONENTS-->
               <!-------------->
 
-              <ul class="nav nav-list accordion-group">
+              <ul class="nav nav-list accordion-group" style="overflow: scroll;">
                 <li class="nav-header">
                   <i class="icon-plus icon-white"></i> COMPONENTS
                   <div class="pull-right popover-info">
@@ -2020,7 +2029,7 @@
                   </div>
                 </li>
                 <li style="display: none;" class="boxes" id="elmComponents">
-				 <div class="box box-element ui-draggable">
+         <div class="box box-element ui-draggable">
                     <a href="#close" class="remove label label-important"><i class="icon-remove icon-white"></i>Remove</a> <span class="drag label"><i class="icon-move"></i>Drag</span>
                      <span class="configuration">
                      <button type="button" class="btn btn-mini" data-target="#editorModal" role="button" data-toggle="modal">Editor</button>
@@ -2032,16 +2041,16 @@
                           <li class=""><a href="#" rel="alert-info">Info</a></li>
                           <li class=""><a href="#" rel="alert-warning">Warning</a></li>
                           <li class=""><a href="#" rel="alert-danger">Danger</a></li>
-                        </ul>	
+                        </ul> 
                       </span>
-					   <a class="btn btn-mini" href="#" rel="alert-link">Alert link</a>
-					    <a class="btn btn-mini" href="#" rel="alert-heading">Alert Heading</a>
+             <a class="btn btn-mini" href="#" rel="alert-link">Alert link</a>
+              <a class="btn btn-mini" href="#" rel="alert-heading">Alert Heading</a>
                     </span>
                     <div class="preview">Alerts</div>
                     <div class="view">
                       <div class="alert" role="alert">
-						<strong>Well done!</strong> You successfully read this important alert message.
-					</div>
+            <strong>Well done!</strong> You successfully read this important alert message.
+          </div>
                     </div>
                   </div>
                  
@@ -2121,7 +2130,7 @@
                     </span>
                     <div class="preview">Card</div>
                     <div class="view">
-                       <div class="card" style="width: 20rem;">
+                       <div class="card" style="max-width: 20rem;">
                         <div class="card-header">
                             Card Header
                         </div>
@@ -2643,7 +2652,7 @@
                 </li>
               </ul>
 
-              <ul class="nav nav-list accordion-group">
+              <ul class="nav nav-list accordion-group" style="overflow: scroll;">
                 <li class="nav-header">
                   <i class="icon-plus icon-white"></i> JAVASCRIPT
                   <div class="pull-right popover-info">
@@ -2961,24 +2970,24 @@
       </div>
       <!--/.fluid-container-->
      <div class="modal fade" id="editorModal" tabindex="-1" role="dialog" aria-labelledby="editorModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalLabel">Save your Layout</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-body">
-					<textarea id="contenteditor"></textarea>
-		      </div>
-		      <div class="modal-footer">
-		        <button id="savecontent"  type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
-		        <button  type="button" class="btn" data-dismiss="modal">Cancel</button>
-		      </div>
-		    </div>
-		  </div>
-	</div>
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Save your Layout</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+          <textarea id="contenteditor"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button id="savecontent"  type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+            <button  type="button" class="btn" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+  </div>
      <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">

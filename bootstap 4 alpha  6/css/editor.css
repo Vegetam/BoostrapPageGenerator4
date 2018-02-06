@@ -172,9 +172,12 @@ body {
 
 .edit .demo .column .box .configuration {
   position: absolute;
-  top: 3px;
-  right: 140px;
-  white-space: nowrap; }
+  /* top: -15px; */
+  top: -20px;
+  /* right: 140px; */
+  right: 0px;
+  white-space: nowrap; 
+}
 
 .edit .demo .remove {
   position: absolute;
