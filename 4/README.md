@@ -15,13 +15,14 @@ About the collapse it will work if you download the page it won't work property 
 
 Try it: [Live Demo] Bootstrap 4 (http://www.francescomalagrino.com/BootstrapPageGenerator/4/)
 
-Authors
-Vegetam (Main Author)
+### Authors
 
-A special thanks as author and contributor also to :
-
-RDCH106 (Contributor / Author)
-Phil (Contributor / Author)
-yaneq (Contributor / Author)
-legnaleama (Contributor / Author)
-oleteacher (Contributor / Author)
+  * [Vegetam](https://github.com/Vegetam) (Main Author)
+  
+  A special thanks as author and contributor also to :
+  
+  * [RDCH106](https://github.com/RDCH106) (Contributor / Author)
+  * [Phil](https://github.com/QuakePhil) (Contributor / Author)
+  * [yaneq](https://github.com/yaneq) (Contributor / Author)
+  * [legnaleama](https://github.com/legnaleama) (Contributor / Author)
+  * [oleteacher](https://github.com/oleteacher) (Contributor / Author)
